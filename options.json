@@ -4,11 +4,11 @@
     "options": [
       {
         "key": "darkThemeBackgroundColor",
-        "value": "#FF000000"
+        "value": "#FF202020"
       },
       {
         "key": "lightThemeBackgroundColor",
-        "value": "#FF0d6aff"
+        "value": "#FFf0634b"
       }
     ]
   }
