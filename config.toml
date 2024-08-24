@@ -27,7 +27,7 @@ arch = "arm64-v8a"
 
 [TwitterZ]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-version = "auto"
+version = "10.50.0-alpha.4"
 included-patches = "'Open links with app chooser'"
 
 # [Reddit]
