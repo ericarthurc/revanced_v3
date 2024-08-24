@@ -23,10 +23,9 @@ apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-mu
 build-mode = "module"
 version = "auto"
 
-[Twitter]
+[TwitterZ]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 version = "10.49.0-release.0"
-build-mode = "module"
 included-patches = "'Open links with app chooser'"
 
 [Reddit]
