@@ -26,7 +26,7 @@ included-patches = "'Change package name'"
 
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-version = "10.50.0-alpha.4"
+version = "10.49.0-release.0"
 included-patches = "'Open links with app chooser' 'Change package name'"
 
 [Reddit]
