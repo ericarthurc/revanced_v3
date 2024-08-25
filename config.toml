@@ -20,7 +20,6 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 
 [Tiktok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-build-mode = "module"
 version = "auto"
 included-patches = "'Change package name'"
 
@@ -31,6 +30,5 @@ included-patches = "'Open links with app chooser' 'Change package name'"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-build-mode = "module"
 version = "auto"
 included-patches = "'Change package name'"
