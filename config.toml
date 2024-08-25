@@ -30,5 +30,5 @@ included-patches = "'Open links with app chooser' 'Change package name'"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-version = "auto"
+version = "2024.17"
 included-patches = "'Change package name'"
