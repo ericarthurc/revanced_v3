@@ -18,19 +18,19 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # version = "auto"
 # arch = "arm64-v8a"
 
-# [Tiktok]
-# apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-# build-mode = "module"
-# version = "auto"
-
-# version = "10.49.0-release.0"
+[Tiktok]
+apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+build-mode = "module"
+version = "auto"
+included-patches = "'Change package name'"
 
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 version = "10.50.0-alpha.4"
 included-patches = "'Open links with app chooser' 'Change package name'"
 
-# [Reddit]
-# apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
-# build-mode = "module"
-# version = "auto"
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+build-mode = "module"
+version = "auto"
+included-patches = "'Change package name'"
