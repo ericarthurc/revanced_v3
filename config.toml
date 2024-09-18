@@ -1,4 +1,4 @@
-patches-version = "v4.14.0-dev.15"
+# patches-version = "v4.14.0-dev.15"
 # enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
