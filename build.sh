@@ -78,9 +78,16 @@ for table_name in $(toml_get_table_names); do
 	cli_src=$(toml_get "$t" cli-source) || cli_src=$DEF_CLI_SRC
 	cli_ver=$(toml_get "$t" cli-version) || cli_ver=$DEF_CLI_VER
 
-	if ! RVP="$(get_rv_prebuilts "$cli_src" "$cli_ver" "$integrations_src" "$integrations_ver" "$patches_src" "$patches_ver")"; then
+	# if ! RVP="$(get_rv_prebuilts "$cli_src" "$cli_ver" "$integrations_src" "$integrations_ver" "$patches_src" "$patches_ver")";then
+	# 	abort "could not download rv prebuilts"
+	# fi
+
+	RVP="$(get_rv_prebuilts "$cli_src" "$cli_ver" "$integrations_src" "$integrations_ver" "$patches_src" "$patches_ver")"
+	echo "Output of get_rv_prebuilts: '$RVP'"
+	if [ -z "$RVP" ]; then
 		abort "could not download rv prebuilts"
 	fi
+	
 	read -r rv_cli_jar rv_integrations_apk rv_patches_jar rv_patches_json <<<"$RVP"
 	app_args[cli]=$rv_cli_jar
 	app_args[integ]=$rv_integrations_apk
