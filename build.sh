@@ -83,11 +83,11 @@ for table_name in $(toml_get_table_names); do
 	# fi
 
 	RVP="$(get_rv_prebuilts "$cli_src" "$cli_ver" "$integrations_src" "$integrations_ver" "$patches_src" "$patches_ver")"
-	echo "Output of get_rv_prebuilts: '$RVP'"
 	if [ -z "$RVP" ]; then
+		echo "Output of get_rv_prebuilts: '$RVP'"
 		abort "could not download rv prebuilts"
 	fi
-	
+
 	read -r rv_cli_jar rv_integrations_apk rv_patches_jar rv_patches_json <<<"$RVP"
 	app_args[cli]=$rv_cli_jar
 	app_args[integ]=$rv_integrations_apk
