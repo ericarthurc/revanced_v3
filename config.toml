@@ -23,8 +23,9 @@ version = "auto"
 excluded-patches = "'Remember clear display' 'Playback speed' 'Disable login requirement'"
 
 [Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-version = "10.49.0-release.0"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+build-mode = "apk"
+# version = "10.49.0-release.0"
 included-patches = "'Open links with app chooser'"
 
 [Reddit]
