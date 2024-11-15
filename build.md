@@ -1,6 +1,6 @@
 Twitter: 10.48.0-release.0  
-YouTube: 19.43.41  
 Music: 7.27.52  
+YouTube: 19.43.41  
 Tiktok: 36.5.4  
 Reddit: 2024.17.0  
 
